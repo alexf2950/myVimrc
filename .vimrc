@@ -19,6 +19,9 @@ Plugin 'Valloric/YouCompleteMe'
 " Status line
 Plugin 'vim-airline/vim-airline'
 
+" Git support
+Plugin 'tpope/vim-fugitive'
+
 " Colorscheme
 Plugin 'tomasr/molokai'
 
@@ -42,6 +45,9 @@ Plugin 'Raimondi/delimitMate'
 
 " Improve JS syntax support
 Plugin 'pangloss/vim-javascript'
+
+" Highlight matching html tags
+Plugin 'MatchTag'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
